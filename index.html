@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic character encoding & responsive viewport settings -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harshini.S | Portfolio</title>
+
+  <!-- Link to your external stylesheet (style.css) -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font: Plus Jakarta Sans for clean typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ==============================================
+       HEADER & NAVIGATION BAR
+       Displays your name and links to page sections
+       ============================================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <!-- Your Name / Logo brand -->
+      <a href="#hero" class="brand-name">Harshini.S</a>
+
+      <!-- Navigation Menu -->
+      <nav class="nav-menu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link contact-btn">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==============================================
+         HERO INTRODUCTION SECTION
+         First welcoming impression for recruiters
+         ============================================== -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <span class="status-badge">Class of 2030</span>
+        <h1 class="hero-title">Hi, I'm <span class="highlight">Harshini.S</span> 👋</h1>
+        <p class="hero-subtitle">1st Year CSE with Cybersecurity Student</p>
+        <p class="hero-description">Curious freshman turning coffee into clean code, practical CLI tools, and web experiments.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="https://github.com/alexchen-dev" target="_blank" class="btn btn-secondary">GitHub Profile</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         ABOUT ME SECTION
+         Your origin story, academic focus, and hobbies
+         ============================================== -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <p>I am a first-year Computer Science student passionate about algorithmic problem solving and building software that simplifies daily college life. My journey began when I automated lecture notes formatting using Python scripts, which made me realize the immense joy of building useful tools from scratch.</p>
+          <p>Currently, I am strengthening my fundamentals in C++ memory management, Data Structures, and learning modern web development. On campus, I participate in our ACM student chapter, attend weekend hackathons, and practice competitive coding.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         TECHNICAL SKILLS SECTION
+         Categorized list of your languages and tools
+         ============================================== -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-subtitle">Core languages, tools, and topics I am currently learning.</p>
+        
+        <div class="skills-grid">
+          
+          <!-- Skill Card: Core Languages -->
+          <div class="skill-card">
+            <h3 class="skill-category-title">Core Languages</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Python 3</span>
+              <span class="skill-tag">C++</span>
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">JavaScript (ES6+)</span>
+            </div>
+          </div>
+
+          <!-- Skill Card: Web & Styling -->
+          <div class="skill-card">
+            <h3 class="skill-category-title">Web & Styling</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">Tailwind CSS</span>
+              <span class="skill-tag">Basic React</span>
+            </div>
+          </div>
+
+          <!-- Skill Card: Developer Tools -->
+          <div class="skill-card">
+            <h3 class="skill-category-title">Developer Tools</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Git & GitHub</span>
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">Linux Terminal (Bash)</span>
+              <span class="skill-tag">Postman</span>
+            </div>
+          </div>
+
+          <!-- Skill Card: Currently Learning -->
+          <div class="skill-card">
+            <h3 class="skill-category-title">Currently Learning</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Data Structures & Algorithms</span>
+              <span class="skill-tag">Object-Oriented Design</span>
+              <span class="skill-tag">SQL & Databases</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         PROJECTS SECTION
+         3 featured projects demonstrating practical code
+         ============================================== -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">Hands-on applications I built during my 1st year in CSE.</p>
+
+        <div class="projects-grid">
+          
+          <!-- Project Card 1: StudySync: Student Pomodoro & Focus Manager -->
+          <article class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">StudySync: Student Pomodoro & Focus Manager</h3>
+              <span class="project-category">WEB</span>
+            </div>
+            <p class="project-desc">An interactive productivity timer built for university students with custom study intervals and task lists.</p>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML5 Audio</span>
+              <span class="tag">Tailwind CSS</span>
+              <span class="tag">localStorage API</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/alexchen-dev/studysync-timer" target="_blank" class="project-link">View Code &rarr;</a>
+              <a href="https://studysync-freshman.vercel.app" target="_blank" class="project-link demo-link">Live Demo &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Project Card 2: Console Banking & Account Ledger System -->
+          <article class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Console Banking & Account Ledger System</h3>
+              <span class="project-category">CLI</span>
+            </div>
+            <p class="project-desc">A robust terminal-based C++ application managing user accounts, PIN verification, and persistent file balances.</p>
+            <div class="project-tags">
+              <span class="tag">C++</span>
+              <span class="tag">OOP</span>
+              <span class="tag">File Streams (fstream)</span>
+              <span class="tag">Input Validation</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/alexchen-dev/cpp-banking-cli" target="_blank" class="project-link">View Code &rarr;</a>
+              
+            </div>
+          </article>
+
+          <!-- Project Card 3: Terminal Wordle with Dictionary Validation -->
+          <article class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Terminal Wordle with Dictionary Validation</h3>
+              <span class="project-category">GAME</span>
+            </div>
+            <p class="project-desc">A Python-based CLI recreation of Wordle with ANSI terminal colors, stats tracking, and dictionary checking.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">ANSI Color Codes</span>
+              <span class="tag">Algorithms</span>
+              <span class="tag">File I/O</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/alexchen-dev/python-wordle-cli" target="_blank" class="project-link">View Code &rarr;</a>
+              
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         CONTACT SECTION
+         Direct email link & social network profiles
+         ============================================== -->
+    <section id="contact" class="section contact-section">
+      <div class="container contact-container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">
+          I am currently open to student internships, research projects, and hackathon teams!
+        </p>
+
+        <!-- Direct Email Link (mailto:) -->
+        <div class="email-box">
+          <p class="email-label">Send me an email directly:</p>
+          <a href="mailto:alex.chen@university.edu" class="email-link">
+            📧 alex.chen@university.edu
+          </a>
+        </div>
+
+        <!-- Social Network Links -->
+        <div class="social-links">
+          <a href="https://github.com/alexchen-dev" target="_blank" class="social-btn">GitHub</a>
+          <a href="https://linkedin.com/in/alexchen-cs" target="_blank" class="social-btn">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==============================================
+       PAGE FOOTER
+       ============================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Harshini.S. Built with clean HTML, CSS, and JavaScript.</p>
+    </div>
+  </footer>
+
+  <!-- Link to external JavaScript file (script.js) -->
+  <script src="script.js"></script>
+</body>
+</html>
